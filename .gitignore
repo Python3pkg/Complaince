@@ -1,2 +1,8 @@
 *.pyc
-__pycache__
+__pycache__/
+ChangeLog
+pbr-1.6.0-py2.7.egg
+complaince.egg-info
+build/
+dist/
+AUTHORS

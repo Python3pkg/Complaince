@@ -33,7 +33,7 @@ def param_check(*param_types, **kwargs):
                 for param_no, param_t in enumerate(passed_types):
                     assert (type(param_types[param_no]) == tuple)
                     if param_t not in param_types[param_no]:
-                        msg = param_msg(func.__name__,param_no, param_t,param_types[i])
+                        msg = param_msg(func.__name__,param_no, param_t,param_types[param_no])
                         if(level == 0):
                             print("Warning: %s" % msg, file = sys.stderr)
                         if(level == 1):

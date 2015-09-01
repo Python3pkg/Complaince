@@ -6,6 +6,13 @@ can be done using a single decorator.
 
 Each parameter can have multiple possible types , mentioned in a tuple
 
+Installation
+============
+
+```bash
+   pip install complaince
+```
+
 Examples
 ========
 When plainly checking parameter types
@@ -24,8 +31,7 @@ In this case both a and b have to be int only (tuple definition is a must )
 
 There is are two optional parameters:
 
-1. level - Key-Value pair indicates warning message(continue execution after type error) or throw an exception(essentially
-   terminating the execution flow) (0 - warning , 1 - exception error) Default
+1. level - Key-Value pair indicates warning message to stderr or throw an exception (0 - warning , 1 - exception error) Default
    is warning i.e 0
 
 2. ret - Key-Value pair indicating possible return types, in this case too
@@ -37,3 +43,8 @@ There is are two optional parameters:
 ```
 In the above example we will throw an exception if the parameters, return value do not match
 required types. Return value can be either an in or float
+
+Compatability
+=============
+Requires python 2.6 or higher
+Works with python 3.0 and higher
