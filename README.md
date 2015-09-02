@@ -1,4 +1,4 @@
-# Complaince
+# Complaince [![Build Status](https://travis-ci.org/vrakesh/Complaince.svg?branch=master)](https://travis-ci.org/vrakesh/Complaince)
 A python function parameter and return type-checking decorator
 
 Both the parameters types and return type(optional to check for return type)
