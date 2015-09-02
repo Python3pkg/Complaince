@@ -15,6 +15,11 @@ Installation
 
 Examples
 ========
+import using the following
+
+```python
+   from complaince.complaince import param_check
+```
 When plainly checking parameter types
 
 ```python
@@ -46,5 +51,5 @@ required types. Return value can be either an in or float
 
 Compatability
 =============
-Requires python 2.6 or higher
+Requires python 2.7 or higher
 Works with python 3.0 and higher
