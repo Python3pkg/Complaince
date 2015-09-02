@@ -12,7 +12,7 @@ def param_check(*param_types, **kwargs):
         1 - Error
     ret (optional) - verify return type of function is also a tuple
     '''
-    if not kwargs:
+    if ((not kwargs) or ('level' not in kwargs)):
         level = 0
     else:
         level = kwargs['level']
